@@ -1,13 +1,112 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* .testing2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+} */
+/* .menu-container .ant-menu-item-register1 {
+    display:flex;
+    justify-content: flex-end;
+    
+} */
+
+.pointer {
+    cursor: pointer;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.menu-main {
+    position: relative;
 }
+
+.menu-main  .align-right1 {
+    position: absolute;
+    right:1px;
+}
+
+.menu-main  .align-right2 {
+    position: absolute;
+    right:100px;
+}
+
+.menu-main  .align-right3 {
+    position: absolute;
+    right:180px;
+}
+
+.google-button {
+    background-color: rgb(216, 89, 89);
+    border-color: rgb(216, 89, 89);
+    color: white;
+}
+
+.slide img {
+    height: 450px;
+    object-fit: contain;
+}
+
+.own-single-description {
+    display: flex;
+    justify-content:space-between;
+}
+
+.own-single-description2  {
+    display: flex;
+    justify-content:space-between;
+}
+
+.search-inline {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.price-inline {
+    display: flex;
+    align-items: center;
+}
+
+/* Date Picker */
+.custom-date-picker {
+    width: 20%;
+  }
+  
+/* order history */
+.order-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Processing {
+    border: solid;
+    padding: 2px;
+    color: blue;
+}
+
+.Dispatched {
+    border: solid;
+    padding: 2px;
+    color: blue;
+}
+
+.Cancelled {
+    border: solid;
+    padding: 2px;
+    color: red;
+}
+
+.Completed {
+    border: solid;
+    padding: 2px;
+    color: rgb(23, 235, 23);
+}
+
+/* wishlist */
+.small-photo {
+    width: 50px;
+    height: auto;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* end of wishlist */
